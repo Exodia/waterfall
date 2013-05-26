@@ -3,7 +3,7 @@
  * Dynamic load waterfall items by monitor window scroll.
  * @author yiminghe@gmail.com
  */
-KISSY.add("waterfall/loader", function (S, Node, Waterfall) {
+KISSY.add(function (S, Node, Waterfall) {
 
     var $ = Node.all,
         win = S.Env.host,

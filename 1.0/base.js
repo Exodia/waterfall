@@ -3,7 +3,7 @@
  * Make Elements flow like waterfall.
  * @author yiminghe@gmail.com
  */
-KISSY.add("waterfall/base", function (S, Node, Base) {
+KISSY.add(function (S, Node, Base) {
 
     var $ = Node.all,
         win = S.Env.host,
