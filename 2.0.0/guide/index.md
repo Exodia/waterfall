@@ -1,10 +1,11 @@
-#迁移到kg后的使用方法:
+## 综述
 
-```javascript
-KISSY.use('kg/waterfall/2.0.0/', function(S, Waterfall){
+Waterfall。
 
-})
-```
+## 初始化组件
+		
+    S.use('kg/waterfall/2.0.0/index', function (S, Waterfall) {
+         var waterfall = new Waterfall();
+    })
 
-#具体文档
-[点此进入](http://docs.kissyui.com/docs/html/tutorials/kissy/component/waterfall/index.html#waterfall-tutorial)
+## API说明
